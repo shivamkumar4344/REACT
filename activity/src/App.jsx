@@ -1,4 +1,6 @@
 import ProductTab from './ProductTab';
+import Button from './Button';
+
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
     <>
     <h1 style={styles}>Blockbuster deals on Computer Accessories | Shop Now</h1>
       <ProductTab/>
+      <Button/>
       </>
   )
 };
