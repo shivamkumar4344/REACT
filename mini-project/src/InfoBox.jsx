@@ -24,7 +24,7 @@ export default function InfoBox({ info }) {
                     />
                     <CardContent>
                         <Typography gutterBottom variant="h4" component="div">
-                            {info.city}&nbsp;
+                            {info.city.toUpperCase()}&nbsp;
                             {
                                 info.humidity > 80 ? <ThunderstormIcon/>
                                 : info.temp > 20 ? <WbSunnyIcon/> 

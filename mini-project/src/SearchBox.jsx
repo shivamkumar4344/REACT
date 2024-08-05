@@ -53,6 +53,3 @@ export default function SearchBox({ updateInfo }) {
     )
 
 };
-
-
-//https://api.openweathermap.org/data/3.0/weather?q={}&appid={API key}
